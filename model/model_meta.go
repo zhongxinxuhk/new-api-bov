@@ -4,7 +4,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/QuantumNous/new-api/common"
+	"github.com/zhongxinxuhk/new-api-bov/common"
 
 	"gorm.io/gorm"
 )

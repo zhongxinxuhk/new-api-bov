@@ -4,14 +4,14 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/constant"
-	"github.com/QuantumNous/new-api/logger"
-	"github.com/QuantumNous/new-api/relay/channel/xinference"
-	relaycommon "github.com/QuantumNous/new-api/relay/common"
-	"github.com/QuantumNous/new-api/relaykit/dto"
-	"github.com/QuantumNous/new-api/relaykit/types"
-	"github.com/QuantumNous/new-api/service"
+	"github.com/zhongxinxuhk/new-api-bov/common"
+	"github.com/zhongxinxuhk/new-api-bov/constant"
+	"github.com/zhongxinxuhk/new-api-bov/logger"
+	"github.com/zhongxinxuhk/new-api-bov/relay/channel/xinference"
+	relaycommon "github.com/zhongxinxuhk/new-api-bov/relay/common"
+	"github.com/zhongxinxuhk/new-api-bov/relaykit/dto"
+	"github.com/zhongxinxuhk/new-api-bov/relaykit/types"
+	"github.com/zhongxinxuhk/new-api-bov/service"
 
 	"github.com/gin-gonic/gin"
 )

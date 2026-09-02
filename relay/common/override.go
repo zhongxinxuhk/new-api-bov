@@ -9,9 +9,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/QuantumNous/new-api/common"
-	kitreasoning "github.com/QuantumNous/new-api/relaykit/relayconvert/reasoning"
-	"github.com/QuantumNous/new-api/relaykit/types"
+	"github.com/zhongxinxuhk/new-api-bov/common"
+	kitreasoning "github.com/zhongxinxuhk/new-api-bov/relaykit/relayconvert/reasoning"
+	"github.com/zhongxinxuhk/new-api-bov/relaykit/types"
 	"github.com/samber/lo"
 	"github.com/tidwall/gjson"
 	"github.com/tidwall/sjson"

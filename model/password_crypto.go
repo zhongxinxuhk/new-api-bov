@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/QuantumNous/new-api/common"
+	"github.com/zhongxinxuhk/new-api-bov/common"
 
 	"gorm.io/gorm"
 	"gorm.io/gorm/clause"

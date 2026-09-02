@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/QuantumNous/new-api/relaykit/dto"
-	"github.com/QuantumNous/new-api/relaykit/relayconvert/convmeta"
-	"github.com/QuantumNous/new-api/relaykit/relayconvert/reasoning"
+	"github.com/zhongxinxuhk/new-api-bov/relaykit/dto"
+	"github.com/zhongxinxuhk/new-api-bov/relaykit/relayconvert/convmeta"
+	"github.com/zhongxinxuhk/new-api-bov/relaykit/relayconvert/reasoning"
 )
 
 var SupportedMimeTypes = map[string]bool{

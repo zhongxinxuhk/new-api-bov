@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/dto"
+	"github.com/zhongxinxuhk/new-api-bov/common"
+	"github.com/zhongxinxuhk/new-api-bov/dto"
 )
 
 const (

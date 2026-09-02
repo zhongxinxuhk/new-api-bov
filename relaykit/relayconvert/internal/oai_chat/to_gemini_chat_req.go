@@ -7,12 +7,12 @@ import (
 	"strings"
 
 	"context"
-	"github.com/QuantumNous/new-api/relaykit/dto"
-	"github.com/QuantumNous/new-api/relaykit/relayconvert/convmeta"
-	relaymedia "github.com/QuantumNous/new-api/relaykit/relayconvert/internal/media"
-	sharedgemini "github.com/QuantumNous/new-api/relaykit/relayconvert/internal/shared/gemini"
-	kitutil "github.com/QuantumNous/new-api/relaykit/relayconvert/kitutil"
-	"github.com/QuantumNous/new-api/relaykit/relayconvert/reasoning"
+	"github.com/zhongxinxuhk/new-api-bov/relaykit/dto"
+	"github.com/zhongxinxuhk/new-api-bov/relaykit/relayconvert/convmeta"
+	relaymedia "github.com/zhongxinxuhk/new-api-bov/relaykit/relayconvert/internal/media"
+	sharedgemini "github.com/zhongxinxuhk/new-api-bov/relaykit/relayconvert/internal/shared/gemini"
+	kitutil "github.com/zhongxinxuhk/new-api-bov/relaykit/relayconvert/kitutil"
+	"github.com/zhongxinxuhk/new-api-bov/relaykit/relayconvert/reasoning"
 )
 
 func OpenAIChatRequestToGeminiGenerateContent(c context.Context, textRequest dto.GeneralOpenAIRequest, info convmeta.Meta) (*dto.GeminiChatRequest, error) {

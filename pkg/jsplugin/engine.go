@@ -9,7 +9,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/QuantumNous/new-api/logger"
+	"github.com/zhongxinxuhk/new-api-bov/logger"
 	"github.com/grafana/sobek"
 	"github.com/grafana/sobek/parser"
 )

@@ -5,12 +5,12 @@ import (
 	"math"
 	"sort"
 
-	"github.com/QuantumNous/new-api/common"
-	"github.com/QuantumNous/new-api/relaykit/dto"
-	"github.com/QuantumNous/new-api/pkg/billingexpr"
-	"github.com/QuantumNous/new-api/pkg/jsplugin"
-	relaycommon "github.com/QuantumNous/new-api/relay/common"
-	"github.com/QuantumNous/new-api/setting/config"
+	"github.com/zhongxinxuhk/new-api-bov/common"
+	"github.com/zhongxinxuhk/new-api-bov/relaykit/dto"
+	"github.com/zhongxinxuhk/new-api-bov/pkg/billingexpr"
+	"github.com/zhongxinxuhk/new-api-bov/pkg/jsplugin"
+	relaycommon "github.com/zhongxinxuhk/new-api-bov/relay/common"
+	"github.com/zhongxinxuhk/new-api-bov/setting/config"
 	"github.com/samber/lo"
 )
 

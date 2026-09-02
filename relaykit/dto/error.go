@@ -3,8 +3,8 @@ package dto
 import (
 	"encoding/json"
 
-	kitutil "github.com/QuantumNous/new-api/relaykit/relayconvert/kitutil"
-	"github.com/QuantumNous/new-api/relaykit/types"
+	kitutil "github.com/zhongxinxuhk/new-api-bov/relaykit/relayconvert/kitutil"
+	"github.com/zhongxinxuhk/new-api-bov/relaykit/types"
 )
 
 //type OpenAIError struct {

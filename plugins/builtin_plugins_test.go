@@ -4,7 +4,7 @@ import (
 	"io/fs"
 	"testing"
 
-	"github.com/QuantumNous/new-api/pkg/jsplugin"
+	"github.com/zhongxinxuhk/new-api-bov/pkg/jsplugin"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

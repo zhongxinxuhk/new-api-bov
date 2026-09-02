@@ -8,15 +8,15 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/QuantumNous/new-api/relaykit/dto"
-	"github.com/QuantumNous/new-api/relaykit/relayconvert/convmeta"
-	claudemessages "github.com/QuantumNous/new-api/relaykit/relayconvert/internal/claude_messages"
-	geminichat "github.com/QuantumNous/new-api/relaykit/relayconvert/internal/gemini_chat"
-	oaichat "github.com/QuantumNous/new-api/relaykit/relayconvert/internal/oai_chat"
-	oairesponses "github.com/QuantumNous/new-api/relaykit/relayconvert/internal/oai_responses"
-	"github.com/QuantumNous/new-api/relaykit/relayconvert/internal/toolconv"
-	kitutil "github.com/QuantumNous/new-api/relaykit/relayconvert/kitutil"
-	"github.com/QuantumNous/new-api/relaykit/types"
+	"github.com/zhongxinxuhk/new-api-bov/relaykit/dto"
+	"github.com/zhongxinxuhk/new-api-bov/relaykit/relayconvert/convmeta"
+	claudemessages "github.com/zhongxinxuhk/new-api-bov/relaykit/relayconvert/internal/claude_messages"
+	geminichat "github.com/zhongxinxuhk/new-api-bov/relaykit/relayconvert/internal/gemini_chat"
+	oaichat "github.com/zhongxinxuhk/new-api-bov/relaykit/relayconvert/internal/oai_chat"
+	oairesponses "github.com/zhongxinxuhk/new-api-bov/relaykit/relayconvert/internal/oai_responses"
+	"github.com/zhongxinxuhk/new-api-bov/relaykit/relayconvert/internal/toolconv"
+	kitutil "github.com/zhongxinxuhk/new-api-bov/relaykit/relayconvert/kitutil"
+	"github.com/zhongxinxuhk/new-api-bov/relaykit/types"
 )
 
 type ResponseConverterFunc func(c context.Context, info convmeta.Meta, response any) (any, *dto.Usage, error)

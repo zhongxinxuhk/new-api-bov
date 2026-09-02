@@ -3,11 +3,11 @@ package helper
 import (
 	"strings"
 
-	relaycommon "github.com/QuantumNous/new-api/relay/common"
-	"github.com/QuantumNous/new-api/relaykit/dto"
-	"github.com/QuantumNous/new-api/relaykit/relayconvert/convmeta"
-	"github.com/QuantumNous/new-api/relaykit/relayconvert/reasoning"
-	"github.com/QuantumNous/new-api/setting/model_setting"
+	relaycommon "github.com/zhongxinxuhk/new-api-bov/relay/common"
+	"github.com/zhongxinxuhk/new-api-bov/relaykit/dto"
+	"github.com/zhongxinxuhk/new-api-bov/relaykit/relayconvert/convmeta"
+	"github.com/zhongxinxuhk/new-api-bov/relaykit/relayconvert/reasoning"
+	"github.com/zhongxinxuhk/new-api-bov/setting/model_setting"
 )
 
 // ApplyReasoningModelSuffix parses host-private reasoning suffixes from the

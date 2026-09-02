@@ -1,6 +1,6 @@
 package service
 
-import "github.com/QuantumNous/new-api/relaykit/dto"
+import "github.com/zhongxinxuhk/new-api-bov/relaykit/dto"
 
 const (
 	usageBillingPathLocal              = "local"

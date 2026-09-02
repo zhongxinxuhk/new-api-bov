@@ -1,12 +1,12 @@
 package router
 
 import (
-	"github.com/QuantumNous/new-api/controller"
-	"github.com/QuantumNous/new-api/middleware"
-	"github.com/QuantumNous/new-api/service/authz"
+	"github.com/zhongxinxuhk/new-api-bov/controller"
+	"github.com/zhongxinxuhk/new-api-bov/middleware"
+	"github.com/zhongxinxuhk/new-api-bov/service/authz"
 
 	// Import oauth package to register providers via init()
-	_ "github.com/QuantumNous/new-api/oauth"
+	_ "github.com/zhongxinxuhk/new-api-bov/oauth"
 
 	"github.com/gin-contrib/gzip"
 	"github.com/gin-gonic/gin"

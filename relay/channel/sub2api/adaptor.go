@@ -1,7 +1,7 @@
 package sub2api
 
 import (
-	"github.com/QuantumNous/new-api/relay/channel/newapi"
+	"github.com/zhongxinxuhk/new-api-bov/relay/channel/newapi"
 )
 
 type Adaptor struct {
