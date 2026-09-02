@@ -1,10 +1,10 @@
 ---
 title: "New API BOV（商业化运营版）产品定义"
-version: "v0.1.0-draft"
+version: "v0.2.0"
 created: 2026-09-02
 updated: 2026-09-02
 owner: zhongxinxuhk
-status: draft
+status: active
 tags: [product-definition, new-api-bov, compliance]
 ---
 
