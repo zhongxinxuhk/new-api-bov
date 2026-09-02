@@ -15,14 +15,14 @@
 </p>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/Calcium-Ion/new-api/main/LICENSE">
-    <img src="https://img.shields.io/github/license/Calcium-Ion/new-api?color=brightgreen" alt="license">
+  <a href="https://raw.githubusercontent.com/zhongxinxuhk/new-api-bov/main/LICENSE">
+    <img src="https://img.shields.io/github/license/zhongxinxuhk/new-api-bov?color=brightgreen" alt="license">
   </a><!--
-  --><a href="https://github.com/Calcium-Ion/new-api/releases/latest">
-    <img src="https://img.shields.io/github/v/release/Calcium-Ion/new-api?color=brightgreen&include_prereleases" alt="release">
+  --><a href="https://github.com/zhongxinxuhk/new-api-bov/releases/latest">
+    <img src="https://img.shields.io/github/v/release/zhongxinxuhk/new-api-bov?color=brightgreen&include_prereleases" alt="release">
   </a><!--
-  --><a href="https://hub.docker.com/r/CalciumIon/new-api">
-    <img src="https://img.shields.io/badge/docker-dockerHub-blue" alt="docker">
+  --><a href="https://github.com/zhongxinxuhk/new-api-bov/pkgs/container/new-api-bov">
+    <img src="https://img.shields.io/badge/ghcr-ghcr.io-blue" alt="docker">
   </a>
   <a href="https://atomgit.com/QuantumNous/new-api" target="_blank">
     <img alt="AtomGit G-Star" src="https://atomgit.com/QuantumNous/new-api/star/badge.svg"/>
@@ -112,7 +112,7 @@
 
 ```bash
 # プロジェクトをクローン
-git clone https://github.com/QuantumNous/new-api.git
+git clone https://github.com/zhongxinxuhk/new-api-bov.git
 cd new-api
 
 # docker-compose.yml 設定を編集
@@ -127,14 +127,14 @@ docker-compose up -d
 
 ```bash
 # 最新のイメージをプル
-docker pull calciumion/new-api:latest
+docker pull ghcr.io/zhongxinxuhk/new-api-bov:latest
 
 # SQLiteを使用（デフォルト）
 docker run --name new-api -d --restart always \
   -p 3000:3000 \
   -e TZ=Asia/Shanghai \
   -v ./data:/data \
-  calciumion/new-api:latest
+  ghcr.io/zhongxinxuhk/new-api-bov:latest
 
 # MySQLを使用
 docker run --name new-api -d --restart always \
@@ -142,7 +142,7 @@ docker run --name new-api -d --restart always \
   -e SQL_DSN="root:123456@tcp(localhost:3306)/oneapi" \
   -e TZ=Asia/Shanghai \
   -v ./data:/data \
-  calciumion/new-api:latest
+  ghcr.io/zhongxinxuhk/new-api-bov:latest
 ```
 
 > **💡 ヒント:** `-v ./data:/data` は現在のディレクトリの `data` フォルダにデータを保存します。絶対パスに変更することもできます：`-v /your/custom/path:/data`
@@ -298,7 +298,7 @@ docker run --name new-api -d --restart always \
 ## 🚢 デプロイ
 
 > [!TIP]
-> **最新のDockerイメージ:** `calciumion/new-api:latest`
+> **最新のDockerイメージ:** `ghcr.io/zhongxinxuhk/new-api-bov:latest`
 
 ### 📋 デプロイ要件
 
@@ -352,7 +352,7 @@ docker run --name new-api -d --restart always \
 
 ```bash
 # プロジェクトをクローン
-git clone https://github.com/QuantumNous/new-api.git
+git clone https://github.com/zhongxinxuhk/new-api-bov.git
 cd new-api
 
 # 設定を編集
@@ -373,7 +373,7 @@ docker run --name new-api -d --restart always \
   -p 3000:3000 \
   -e TZ=Asia/Shanghai \
   -v ./data:/data \
-  calciumion/new-api:latest
+  ghcr.io/zhongxinxuhk/new-api-bov:latest
 ```
 
 **MySQLを使用:**
@@ -383,7 +383,7 @@ docker run --name new-api -d --restart always \
   -e SQL_DSN="root:123456@tcp(localhost:3306)/oneapi" \
   -e TZ=Asia/Shanghai \
   -v ./data:/data \
-  calciumion/new-api:latest
+  ghcr.io/zhongxinxuhk/new-api-bov:latest
 ```
 
 > **💡 パス説明:**
@@ -495,7 +495,7 @@ Token、Origin 検証、PAT の契約については[ユーザー認証とログ
 
 このプロジェクトがあなたのお役に立てたなら、ぜひ ⭐️ スターをください！
 
-**[公式ドキュメント](https://docs.newapi.pro/ja/docs)** • **[問題フィードバック](https://github.com/Calcium-Ion/new-api/issues)** • **[最新リリース](https://github.com/Calcium-Ion/new-api/releases)**
+**[公式ドキュメント](https://docs.newapi.pro/ja/docs)** • **[問題フィードバック](https://github.com/zhongxinxuhk/new-api-bov/issues)** • **[最新リリース](https://github.com/zhongxinxuhk/new-api-bov/releases)**
 
 <sub>❤️ で構築された QuantumNous</sub>
 

@@ -15,14 +15,14 @@
 </p>
 
 <p align="center">
-  <a href="https://raw.githubusercontent.com/Calcium-Ion/new-api/main/LICENSE">
-    <img src="https://img.shields.io/github/license/Calcium-Ion/new-api?color=brightgreen" alt="license">
+  <a href="https://raw.githubusercontent.com/zhongxinxuhk/new-api-bov/main/LICENSE">
+    <img src="https://img.shields.io/github/license/zhongxinxuhk/new-api-bov?color=brightgreen" alt="license">
   </a><!--
-  --><a href="https://github.com/Calcium-Ion/new-api/releases/latest">
-    <img src="https://img.shields.io/github/v/release/Calcium-Ion/new-api?color=brightgreen&include_prereleases" alt="release">
+  --><a href="https://github.com/zhongxinxuhk/new-api-bov/releases/latest">
+    <img src="https://img.shields.io/github/v/release/zhongxinxuhk/new-api-bov?color=brightgreen&include_prereleases" alt="release">
   </a><!--
-  --><a href="https://hub.docker.com/r/CalciumIon/new-api">
-    <img src="https://img.shields.io/badge/docker-dockerHub-blue" alt="docker">
+  --><a href="https://github.com/zhongxinxuhk/new-api-bov/pkgs/container/new-api-bov">
+    <img src="https://img.shields.io/badge/ghcr-ghcr.io-blue" alt="docker">
   </a>
   <a href="https://atomgit.com/QuantumNous/new-api" target="_blank">
     <img alt="AtomGit G-Star" src="https://atomgit.com/QuantumNous/new-api/star/badge.svg"/>
@@ -112,7 +112,7 @@
 
 ```bash
 # Clone the project
-git clone https://github.com/QuantumNous/new-api.git
+git clone https://github.com/zhongxinxuhk/new-api-bov.git
 cd new-api
 
 # Edit docker-compose.yml configuration
@@ -127,14 +127,14 @@ docker-compose up -d
 
 ```bash
 # Pull the latest image
-docker pull calciumion/new-api:latest
+docker pull ghcr.io/zhongxinxuhk/new-api-bov:latest
 
 # Using SQLite (default)
 docker run --name new-api -d --restart always \
   -p 3000:3000 \
   -e TZ=Asia/Shanghai \
   -v ./data:/data \
-  calciumion/new-api:latest
+  ghcr.io/zhongxinxuhk/new-api-bov:latest
 
 # Using MySQL
 docker run --name new-api -d --restart always \
@@ -142,7 +142,7 @@ docker run --name new-api -d --restart always \
   -e SQL_DSN="root:123456@tcp(localhost:3306)/oneapi" \
   -e TZ=Asia/Shanghai \
   -v ./data:/data \
-  calciumion/new-api:latest
+  ghcr.io/zhongxinxuhk/new-api-bov:latest
 ```
 
 > **💡 Tip:** `-v ./data:/data` will save data in the `data` folder of the current directory, you can also change it to an absolute path like `-v /your/custom/path:/data`
@@ -296,7 +296,7 @@ docker run --name new-api -d --restart always \
 ## 🚢 Deployment
 
 > [!TIP]
-> **Latest Docker image:** `calciumion/new-api:latest`
+> **Latest Docker image:** `ghcr.io/zhongxinxuhk/new-api-bov:latest`
 
 ### 📋 Deployment Requirements
 
@@ -352,7 +352,7 @@ docker run --name new-api -d --restart always \
 
 ```bash
 # Clone the project
-git clone https://github.com/QuantumNous/new-api.git
+git clone https://github.com/zhongxinxuhk/new-api-bov.git
 cd new-api
 
 # Edit configuration
@@ -373,7 +373,7 @@ docker run --name new-api -d --restart always \
   -p 3000:3000 \
   -e TZ=Asia/Shanghai \
   -v ./data:/data \
-  calciumion/new-api:latest
+  ghcr.io/zhongxinxuhk/new-api-bov:latest
 ```
 
 **Using MySQL:**
@@ -383,7 +383,7 @@ docker run --name new-api -d --restart always \
   -e SQL_DSN="root:123456@tcp(localhost:3306)/oneapi" \
   -e TZ=Asia/Shanghai \
   -v ./data:/data \
-  calciumion/new-api:latest
+  ghcr.io/zhongxinxuhk/new-api-bov:latest
 ```
 
 > **💡 Path explanation:**
@@ -505,7 +505,7 @@ If your organization's policies do not permit the use of AGPLv3-licensed softwar
 
 If this project is helpful to you, welcome to give us a ⭐️ Star！
 
-**[Official Documentation](https://docs.newapi.pro/en/docs)** • **[Issue Feedback](https://github.com/Calcium-Ion/new-api/issues)** • **[Latest Release](https://github.com/Calcium-Ion/new-api/releases)**
+**[Official Documentation](https://docs.newapi.pro/en/docs)** • **[Issue Feedback](https://github.com/zhongxinxuhk/new-api-bov/issues)** • **[Latest Release](https://github.com/zhongxinxuhk/new-api-bov/releases)**
 
 <sub>Built with ❤️ by QuantumNous</sub>
 
